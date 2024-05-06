@@ -66,6 +66,7 @@
     margin-top: -60px;
     display: flex;
     justify-content: center;
+    gap: 15px;
     
 }
 
@@ -89,6 +90,39 @@
 
 #radio2:checked ~ .first{
     margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+.navigationAuto div{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigationAuto{
+    position: absolute;
+    width: 100vw;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#radio1:checked ~ .navigationAuto .autoBtn1{
+    background-color: #FFF;
+}
+
+#radio2:checked ~ .navigationAuto .autoBtn2{
+    background-color: #FFF;
+}
+
+#radio3:checked ~ .navigationAuto .autoBtn3{
+    background-color: #FFF;
 }
 
 
