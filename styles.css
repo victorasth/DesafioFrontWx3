@@ -251,9 +251,120 @@
     height: 150px;
 }
 
-.testeContainer{
+.flexContainer{
+    display: flex;
+    height: 700px;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.firstBox{
+    display: flex;
+    flex-direction: column;
+    height: 540px;
+    width: 500px;
+    background-color: #5a5a5a;
+    border-radius: 3px;
+}
+
+.firstBox img{
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+.firstBoxBtn{
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    background-color: #5a5a5a;
+    color: #FFF;
+}
+
+.firstBoxBtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     
 }
+.secondBox{
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    width: 500px;
+    background-color: #5a5a5a;
+    border-radius: 3px;
+}
+
+.secondBox img{
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.secondBoxBtn{
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    background-color: #5a5a5a;
+    color: #FFF;
+}
+
+.secondBoxBtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.thirdBox{
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    width: 500px;
+    background-color: #5a5a5a;
+    border-radius: 3px;
+}
+
+.thirdBox img{
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.thirdBoxBtn{
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    background-color: #5a5a5a;
+    color: #FFF;
+}
+
+.secondBoxBtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+
 
 
 
