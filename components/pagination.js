@@ -37,7 +37,7 @@ document.getElementById('previousPage').addEventListener('click', previousPage);
 
 showPage(currentPage);
 
-// Destaques Pagination
+
 const destaquesPerPage = 4;
 let destaquesCurrentPage = 1;
 
@@ -76,3 +76,7 @@ document.getElementById('destaquesNextPage').addEventListener('click', nextDesta
 document.getElementById('destaquesPreviousPage').addEventListener('click', previousDestaquesPage);
 
 showDestaquesPage(destaquesCurrentPage);
+
+
+
+

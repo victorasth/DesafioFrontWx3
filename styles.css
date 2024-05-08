@@ -50,7 +50,7 @@
 .slider{
     margin: 0 auto;
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 350px;
     overflow: hidden; 
 }
@@ -69,9 +69,10 @@
     position: relative;
 }
 .slide img{
-    width: 100vw;
+    width: 100%;
     height: 350px;
 }
+
 
 .manualNavigation {
     position: absolute;
@@ -158,6 +159,7 @@
     display: flex;
     margin-left: 600px;
 }
+
 .pagination{
     display: flex;
     margin-right: 130px;
@@ -165,8 +167,6 @@
     gap: 10px;
 
 }
-
-
 
 .productsContainer{
     display: flex;
@@ -248,7 +248,7 @@
 }
 
 .paymentsContent img{
-    height: 150px;
+    height: 7.813vw;
 }
 
 .flexContainer{
@@ -263,23 +263,23 @@
 .firstBox{
     display: flex;
     flex-direction: column;
-    height: 540px;
-    width: 500px;
+    height: 38.000vw;
+    width: 26.042vw;
     background-color: #5a5a5a;
     border-radius: 3px;
 }
 
 .firstBox img{
     align-items: center;
-    margin-top: 200px;
+    margin-top: 10.417vw;
     margin-bottom: 10px;
 }
 
 .firstBoxBtn{
-    width: 150px;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    width: 7.813vw;
+    margin-left: 1.563vw;
+    margin-top: 1.563vw;
+    margin-bottom: 0.521vw;
     border-radius: 3px;
     border: 2px solid #FFF;
     cursor: pointer;
@@ -301,17 +301,17 @@
 .secondBox{
     display: flex;
     flex-direction: column;
-    height: 260px;
-    width: 500px;
+    height: 18.542vw;
+    width: 35.042vw;
     background-color: #5a5a5a;
     border-radius: 3px;
 }
 
 .secondBox img{
-    width: 250px;
-    height: 100px;
+    width: 13.021vw;
+    height: 5.208vw;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 4.000vw;
     margin-bottom: 10px;
 }
 .secondBoxBtn{
@@ -334,17 +334,18 @@
 .thirdBox{
     display: flex;
     flex-direction: column;
-    height: 260px;
-    width: 500px;
+    height: 18.542vw;
+    width: 35.042vw;
     background-color: #5a5a5a;
     border-radius: 3px;
 }
 
+
 .thirdBox img{
-    width: 250px;
-    height: 100px;
+    width: 13.021vw;
+    height: 5.208vw;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 4.000vw;
     margin-bottom: 10px;
 }
 .thirdBoxBtn{
@@ -364,7 +365,287 @@
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 }
 
+.fixedBanner{
+    width: 100%;
+    height: 20.000vw;
+}
+
+.fixedBanner img{
+    width: 100%;
+    height: 20.000vw;
+}
+
+.clientContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 630px;
+    background-color: #000000;
+    margin-top: 30px;
+}
+
+.boxClient{
+    height: 280px;
+    width: 452px;
+    background-color: #FFF;
+    margin: 15px;
+}
+
+.footerContainer{
+    margin-top: 30px;
+    height: 330px;
+    background-color: #5a5a5a;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.textFooter{
+    text-align: center;
+    color: #FFF;
+}
+
+.inputContainer{
+    margin-left: 150px;
+}
+
+.inputContainer input{
+    height: 30px;
+    width: 250px;
+}
+
+.inputContainer button{
+    height: 36px;
+    width: 150px;
+    background-color: #000000;
+    color: #FFF;
+}
 
 
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 2% 5% 0% 5%;
+        height: 100px;
+        background-color: #FFF;
+        
+    }
+    
+    .navContainer {
+        display: flex;
+        gap: 100px;
+        text-align: center;
+        align-items: center;
+        color: #000000;
+    }
+    
+    .nav {
+        display: flex;
+        font-size: 15px;
+        text-align: center;
+        gap: 15px;
+        
+    }
+    
+    
+    
+    .navLink {
+        color: #000000;
+        text-decoration: none;
+        position: relative;
+    }
+    
+    .navLink:hover {
+        text-decoration: none;
+    }
+    
+    .navLink:hover::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -2px;
+        height: 2px;
+        background-color: #686868;
+    }
+
+
+    .lancamentosContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    
+    .paginationContainer{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .titleReleases{
+        color: #000000;
+        font-size: 10px;
+        font-weight: 100;
+        display: flex;
+        margin: revert;
+    }
+  
+     
+    
+    .productsContainer{
+        display: flex;
+        height: 60%;
+        background-color: #FFF;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .products{
+        display: flex;
+        height: 500px;
+        width: 280px;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .productImg{
+        margin-top: 10px;
+        height: 250px;
+        width: 100%;
+        border-radius: 5px;
+    
+    }
+    
+    
+    .paymentsContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 300px;
+        background-color: #000000;
+       
+    }
+
+    
+    .paymentsContent img{
+        height: 100px;
+    }
+    
+    .flexContainer{
+        display: flex;
+        height: 1000px;
+        background-color: #000000;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .firstBox{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 300px;
+        background-color: #5a5a5a;
+        border-radius: 3px;
+    }
+    
+    .firstBox img{
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .firstBoxBtn{
+        width: 150px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: 2px solid #FFF;
+        cursor: pointer;
+        background-color: #5a5a5a;
+        color: #FFF;
+    }
+    
+    .firstBoxBtn:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+    
+    .secondContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+        
+    }
+    .secondBox{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 300px;
+        background-color: #5a5a5a;
+        border-radius: 3px;
+    }
+    
+    .secondBox img{
+        width: 150px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .thirdBox{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 300px;
+        background-color: #5a5a5a;
+        border-radius: 3px;
+    }
+    
+    .thirdBox img{
+        width: 150px;
+        height: 100px;;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    .thirdBoxBtn{
+        width: 150px;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: 2px solid #FFF;
+        cursor: pointer;
+        background-color: #5a5a5a;
+        color: #FFF;
+    }
+    
+    .secondBoxBtn:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+}
 
 
