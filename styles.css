@@ -366,6 +366,7 @@
 }
 
 .fixedBanner{
+    margin-top: 30px;
     width: 100%;
     height: 20.000vw;
 }
